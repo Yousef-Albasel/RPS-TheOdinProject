@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="style.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <title>Rock, Paper, Scissors</title>
+
+</head>
+
+<body>
+  <div class="header">
+    <div class="info">
+      <h2>Rock Paper Scissors</h2>
+      <div class="score">
+        <h6>Score</h6>
+        <span id="score-text">0</span>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="game">
+    <div class="optionsContainer">
+      <div class="options">
+        <div id="paper" class="opt"></div>
+        <div id="scissors" class="opt"></div>
+      </div>
+      <div id="rock" class="opt rock"></div>
+    </div>
+  </div>
+
+
+  <div class="result">
+    <div class="resultContainer">
+      <div class="you">
+        <span>You Picked</span>
+        <div id="placeholder" class="opt-res"></div>
+      </div>
+
+      <div class="replay">
+        <span class="result-text">Draw</span>
+        <button id="replay-button">Play Again</button>
+      </div>
+
+      <div class="pc">
+        <span>PC Picked</span>
+        <div id="placeholder-two" class="opt-res"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"> </script>
+</body>
+
+</html>
